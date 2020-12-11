@@ -1,0 +1,46 @@
+body{
+	font-family: Arial, San-Serif;
+}
+
+ul li{
+	list-style-type:none; /*забираємо кружечки із списків*/
+  
+}
+a{
+	text-decoration:none;
+  
+}
+.container{
+	background: url(https://images4.alphacoders.com/922/thumb-1920-922329.jpg) no-repeat ; 
+	margin: auto;
+	width:100vw;
+	height:100vh;
+	background-size: cover;
+	/*opacity:0.5;*/
+}
+.page-navigation{
+	min-height:65px;
+	border-radius:15px;
+}
+.page-navigation li{
+	float:right;
+	padding-right:50px;
+	padding-top:20px;
+
+}
+.page-navigation a{
+	display:block;
+	line-height:4em;
+	font-weight:bold;
+	text-align:center;
+}
+.page-navigation li a:hover{
+	color: yellowgreen; /*при наведенні змінюється колір*/
+}
+.main{
+    position: absolute;
+    left: 50%;
+	padding-top:150px;
+	font-size: 200%;
+	color: orange;
+}
